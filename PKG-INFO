@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: ntplib
+Version: 0.1.9
+Summary: Python NTP library
+Home-page: http://pypi.python.org/pypi/ntplib/
+Author: Charles-Francois Natali
+Author-email: neologix@free.fr
+License: LGPL
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
