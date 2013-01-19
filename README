@@ -1,14 +1,17 @@
 ntplib - Python NTP library
+===========================
 
-Description:
+Description
+-----------
 
-This module offers a simple interface to query NTP servers from Python. It also
-provides utility functions to translate NTP fields values to text (mode, leap
-indicator...). Since it's pure Python, and only depends on core modules, it
-should work on any platform with a decent Python implementation.
+This module offers a simple interface to query NTP servers from Python.
 
+It also provides utility functions to translate NTP fields values to text (mode,
+leap indicator...). Since it's pure Python, and only depends on core modules, it
+should work on any platform with a Python implementation.
 
-Example:
+Example
+-------
 
 >>> import ntplib
 >>> from time import ctime
@@ -28,21 +31,12 @@ Example:
 193.190.230.66
 
 
-Installation:
+Installation
+------------
 
-As root
-# python setup.py install
+As root::
+
+   # python setup.py install
 
 or just copy ntplib.py inside a directory in your sys.path, e.g.
-'/usr/lib/python2.5/'.
-
-
-Platforms:
-
-Tested on Linux and Microsoft Windows XP, with Python 2.5.2, 2.6.2 and 3.0.1,
-but it should work on any platform. Please report if it's not the case with
-your configuration.
-
-Usage:
-
-See test_ntp.py and 'pydoc ntplib'.
+`/usr/lib/python2.5/`.
