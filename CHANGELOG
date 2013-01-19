@@ -1,5 +1,11 @@
-version 0.1.8 - 2010-03-30
-- add IPv6 support
+version 0.3.0 -
+- add a `timeout` parameter to NTPClient.request()
+- rewrite tests using the unittest module, add many tests
+- cleanup
+
+version 0.2.0 -
+- cleanup
+- raise a NTPException when no response is received from server 
 
 version 0.1.8 - 2010-02-20
 - change to LGPL license
