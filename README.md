@@ -13,6 +13,7 @@ should work on any platform with a Python implementation.
 Example
 -------
 
+```python
 >>> import ntplib
 >>> from time import ctime
 >>> c = ntplib.NTPClient()
@@ -29,6 +30,7 @@ Example
 0.0046844482421875
 >>> ntplib.ref_id_to_text(response.ref_id)
 193.190.230.66
+```
 
 
 Installation
