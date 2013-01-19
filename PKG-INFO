@@ -6,22 +6,22 @@ Home-page: http://pypi.python.org/pypi/ntplib/
 Author: Charles-Francois Natali
 Author-email: neologix@free.fr
 License: LGPL
-Description: 
+Description:
         ntplib - Python NTP library
         ===========================
-        
+
         Description
         -----------
-        
+
         This module offers a simple interface to query NTP servers from Python.
-        
+
         It also provides utility functions to translate NTP fields values to text (mode,
         leap indicator...). Since it's pure Python, and only depends on core modules, it
         should work on any platform with a Python implementation.
-        
+
         Example
         -------
-        
+
         >>> import ntplib
         >>> from time import ctime
         >>> c = ntplib.NTPClient()
@@ -38,18 +38,18 @@ Description:
         0.0046844482421875
         >>> ntplib.ref_id_to_text(response.ref_id)
         193.190.230.66
-        
-        
+
+
         Installation
         ------------
-        
+
         As root::
-        
+
            # python setup.py install
-        
+
         or just copy ntplib.py inside a directory in your sys.path, e.g.
         `/usr/lib/python2.5/`.
-        
+
 Platform: UNKNOWN
 Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
 Classifier: Programming Language :: Python
