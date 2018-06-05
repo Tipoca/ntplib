@@ -36,9 +36,11 @@ Example
 Installation
 ------------
 
-As root::
+As root:
 
-   # python setup.py install
+```
+# python setup.py install
+```
 
 or just copy ntplib.py inside a directory in your sys.path, e.g.
 `/usr/lib/python2.5/`.
